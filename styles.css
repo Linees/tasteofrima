@@ -1,0 +1,125 @@
+html {
+  background-color:white;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #ede6e6;
+  color: #373535;
+  width: 960px;
+  margin: 0 auto;
+  
+  
+}
+
+header{
+  display: flex;
+ 
+  height: 220px;
+}
+
+header > div
+{
+  flex: 1;
+  text-align: center;
+  align-self: flex-end;
+}
+
+li {
+  display: inline;
+}
+
+header img{
+  max-width: 100px;
+}
+
+h1{
+  margin: 10px;
+  font-size: 20px;
+}
+
+ul{
+  margin: 10px 0;
+  padding: 0;
+}
+
+a
+{
+  text-decoration: none;
+  color: #373535;
+}
+a:hover
+{
+  color:rgb( 226,74,74)
+}
+
+#sign-up
+{
+  background-image: url(image/veg1.jpg);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2, 
+h3
+{
+  background-color: rgba(46, 39, 39, 0.5);
+  padding: 5px;
+  color: rgb(235, 222, 222);
+  font-weight: 300;
+}
+
+h2
+{
+margin-top: 0;
+}
+
+input [type=email] {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+}
+input[type=submit] {
+  background: #cccccc;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#ideas{
+  display: flex;
+  padding: 15px;
+  font-size: larger;
+}
+#ideas img {
+  width: 70%;
+}
+.relative {
+  position: relative;
+}
+.category-title{
+  position: absolute;
+  top: 20px;
+  width: 70%;
+  text-align: center;
+  padding: 5px 0;
+}
+.middle{
+  margin: 0 15px;
+}
+footer 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e5e0e0;
+  padding: 20px;
+}
+footer img
+{max-width: 100px;
+}
